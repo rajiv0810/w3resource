@@ -1,0 +1,16 @@
+package w3resource.third;
+
+public class Exercise25 {
+
+	//Replace each substring of a given string that matches the given regular expression with the given replacement.
+	public static void main(String[] args) {
+		String str = "The quick brown fox jumps over the lazy dog.";
+
+		// Replace all the 'dog' with 'cat'.
+		String new_str = str.replaceAll("fox", "cat");
+
+		// Display the strings for comparison.
+		System.out.println("Original string: " + str);
+		System.out.println("New String: " + new_str);
+	}
+}
