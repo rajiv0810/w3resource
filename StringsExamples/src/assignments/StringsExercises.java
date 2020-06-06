@@ -27,7 +27,7 @@ public class StringsExercises {
 	      
 	      System.out.println("Print index of :"+ str1.indexOf(str3));
 	      
-	      System.out.println("print substring : "+str1.substring(0, 20));
+	      System.out.println("print substring : "+str1.substring(2, 20));
 	      
 	      boolean equalsIgnoreCaseResult = str1.equalsIgnoreCase(str2);
 	      System.out.println("Pirnt equals Ignore case : "+equalsIgnoreCaseResult);
