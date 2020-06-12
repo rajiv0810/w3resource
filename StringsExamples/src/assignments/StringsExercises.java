@@ -8,7 +8,11 @@ public class StringsExercises {
 	      System.out.println( helloString );
 	      
 	      
-	      String str1 = "Hello World";
+	      String str1 = " Hello World,this,is,one,example ";
+	      
+	       
+	     
+	      
 	      String str2 = new String("hello");
 	      String str3 = new String("World");
 	      
@@ -26,6 +30,18 @@ public class StringsExercises {
 	      System.out.println("Print compareToResults :"+ compareToResults);
 	      
 	      System.out.println("Print index of :"+ str1.indexOf(str3));
+	      
+	     System.out.println("split :"+ str1.split(" ").toString());
+	     
+	     System.out.println("Print str1 lenght : " + str1.length());
+	     
+	     String stringsplit =" String Trim Example ";
+	     String splitStr[]= str1.split(",");
+	     System.out.println("print with trim method : "+stringsplit.trim());
+	     
+	     for (int i = 0; i < splitStr.length; i++) {
+	    	  System.out.println("split string : "+ splitStr[i] + " : " + i);
+	    	}
 	      
 	      System.out.println("print substring : "+str1.substring(2, 20));
 	      
